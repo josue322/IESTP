@@ -18,50 +18,14 @@
     <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
-
-
     <style>
-        .program-section {
-            padding: 50px 0;
-        }
-
-        .program-section .image-container {
-            position: relative;
-        }
-
-        .program-section .image-container img {
-            border-radius: 10px;
-            width: 100%;
-            height: auto;
-        }
-
-        .program-section p {
-            font-size: 1.2vw;
+        .text-justify {
             text-align: justify;
         }
 
-
-        @media (max-width: 768px) {
-            .program-section h2 {
-                font-size: 4vw;
-            }
-
-            .program-section p {
-                font-size: 2.5vw;
-            }
-        }
-
-        @media (max-width: 576px) {
-            .program-section h2 {
-                font-size: 5vw;
-            }
-
-            .program-section p {
-                font-size: 3vw;
-            }
+        .large-text {
+            font-size: 1.2rem;
         }
     </style>
 </head>
@@ -107,8 +71,8 @@
                     <li class="dropdown"><a href="#"><b><span>Programas de Estudio</span></b><i
                                 class="bi bi-chevron-down"></i></a>
                         <ul>
-                            <li><a href="dpw.html"><b>Diseño y Programación Web</b></a></li>
-                            <li><a href="enfermeria.html"><b>Enfermería Técnica</b></a></li>
+                            <li><a href="#"><b>Diseño y Programación Web</b></a></li>
+                            <li><a href="#"><b>Enfermería Técnica</b></a></li>
                             <li><a href="#"><b>Mecatrónica Automotriz</b></a></li>
                             <li><a href="#"><b>Industrias Alimentarias</b></a></li>
                             <li><a href="#"><b>Producción Agropecuaria</b></a></li>
@@ -163,44 +127,42 @@
             <h2><b>XXXVI Años al servicio de la educación "Tu meta es la nuestra"</b></h2>
             <a href="#hero" class="btn-get-started scrollto">Explorar</a>
         </div>
-    </section>
+    </section><br>
 
-    <br>
     <div class="section-title">
         <h3>DISEÑO Y PROGRAMACIÓN <span>WEB</span></h3>
     </div>
 
-    <div class="container">
-        <div class="row program-section">
-            <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-                <div class="image-container">
-                    <img src="imagenes/Lic.-alfonso-alvaro-moreno-scaled-1.jpg" alt="Director">
+    <div class="container my-5 d-flex justify-content-center">
+        <div class="card" style="width: 100%; max-width: 900px;">
+            <div class="row g-0">
+                <div class="col-md-4 d-flex justify-content-center align-items-center p-3">
+                    <img src="imagenes/Lic.-alfonso-alvaro-moreno-scaled-1.jpg" class="img-fluid"
+                        alt="Imagen de Nosotros">
                 </div>
-            </div>
-            <div class="col-lg-8 col-md-6">
-                <p style="text-align: justify;">El programa de estudios de Diseño y Programación Web, forma
-                    profesionales
-                    con capacidad de desenvolverse en diferentes entornos tanto en instituciones públicas como privadas,
-                    capaces de
-                    desarrollar la construcción de programas de los sistemas de información, diseñar la presentación,
-                    animación, asignación y navegación de los contenidos y servicios web de acuerdo a la demanda del
-                    usuario, con buenas prácticas de diseño, técnicas de diseño web, usabilidad y experiencia del
-                    usuario objetivo. En el programa de Diseño y Programación, aplicamos el Nuevo Diseño Curricular
-                    Básico de la Educación Superior Tecnológico, basado en el modelo Curricular por módulos o el enfoque
-                    por competencias que integra conocimientos, habilidades y actitudes a través de estrategias
-                    innovadoras de enseñanza-aprendizaje cercanos al ámbito laboral, propuesto por el Ministerio de
-                    Educación (MINEDU).</p>
+                <div class="col-md-8 p-3">
+                    <p class="text-justify large-text">
+                        El programa de estudios de Diseño y Programación Web, forma profesionales con capacidad de
+                        desenvolverse en diferentes entornos tanto en instituciones públicas como privadas, capaces de
+                        desarrollar la construcción de programas de los sistemas de información, diseñar la
+                        presentación, animación, asignación y navegación de los contenidos y servicios web de acuerdo a
+                        la demanda del usuario, con buenas prácticas de diseño, técnicas de diseño web, usabilidad y
+                        experiencia del usuario objetivo. En el programa de Diseño y Programación, aplicamos el Nuevo
+                        Diseño Curricular Básico de la Educación Superior Tecnológico, basado en el modelo Curricular
+                        por módulos o el enfoque por competencias que integra conocimientos, habilidades y actitudes a
+                        través de estrategias innovadoras de enseñanza-aprendizaje cercanos al ámbito laboral, propuesto
+                        por el Ministerio de Educación (MINEDU).
+                    </p>
+                </div>
             </div>
         </div>
     </div>
 
     <section id="services" class="services">
         <div class="container" data-aos="fade-up">
-
             <div class="section-title">
                 <h3>Módulos <span>Profesionales</span></h3>
             </div>
-
             <div class="row">
                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
                     <div class="icon-box">
@@ -223,11 +185,10 @@
                         <h4>MÓDULO III DISEÑO DE SERVICIOS WEB</h4>
                     </div>
                 </div>
-
             </div>
-
         </div>
     </section>
+
 
     <div class="container mt-5">
         <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -729,7 +690,7 @@
             class="btn btn-primary" target="_blank">Ver Horario</a>
     </div>
 
-
+    <br>
     <hr>
     <footer id="footer">
         <div class="footer-top">
@@ -797,7 +758,6 @@
     <div id="preloader"></div>
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
             class="bi bi-arrow-up-short"></i></a>
-
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
